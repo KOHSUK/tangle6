@@ -1,0 +1,8 @@
+file_format: "1"
+id: tangle6
+name: Tangle6
+type: shield
+url: https://github.com/kohsuk/tangle6/
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
