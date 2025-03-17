@@ -88,12 +88,14 @@
 
     trackball: trackball@0 {
         status = "okay";
-        compatible = "pixart,pmw3610";
+        compatible = "pixart,pmw3360";
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        automouse-layer = <6>;
-        scroll-layers = <5>;
 
+        /*   optional features   */
+        // snipe-layers = <1>;
+        automouse-layer = <4>;
+        scroll-layers = <5>;
     };
 };
