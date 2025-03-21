@@ -3,10 +3,4 @@ if SHIELD_TANGLE6
 config ZMK_KEYBOARD_NAME
     default "Tangle6"
 
-config ZMK_POINTING
-    default y
-
-config SPI
-    default y
-
 endif
